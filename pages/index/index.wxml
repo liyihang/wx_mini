@@ -1,13 +1,23 @@
-<!--index.wxml-->
-<view class="container">
-  <view class="userinfo">
-    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
-    <block wx:else>
-      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
-      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+<!-- 轮播 -->
+<swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+    <block wx:for="{{imgUrls}}">
+      <swiper-item>
+        <image src="{{item}}" class="slide-image" />
+      </swiper-item>
     </block>
+</swiper>
+<!-- 分类 -->
+<view>
+  <view class='container'>
+    <text class="iconfont .icon-zaocan" style="font-size:50px;color:red">早餐</text>
   </view>
-  <view class="usermotto">
-    <text class="user-motto">{{motto}}</text>
+</view>
+<!-- 商品图片 -->
+<view>
+  <view  wx:for="{{menu}}">
+    <view class='menu'><image src='{{item}}'></image>
+      <text class='desc'>四川老火锅</text>
+    </view>
+    
   </view>
 </view>
