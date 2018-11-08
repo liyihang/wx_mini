@@ -8,16 +8,23 @@
 </swiper>
 <!-- 分类 -->
 <view>
-  <view class='container'>
-    <text class="iconfont .icon-zaocan" style="font-size:50px;color:red">早餐</text>
+  <view class='category'>
+    <text class="iconfont icon-fenleigongnengleimu">分类</text>
+    <text class="iconfont icon-hongbei">烘焙</text>
+    <text class="iconfont icon-meishi">美食</text>
+    <text class="iconfont icon-chuanchuan">串串</text>
+    <text class="iconfont icon-tubiaohuizong-zhuanqu_huaban" >火锅</text>
+    <text class="iconfont icon-shangcheng">商城</text>
+    <text class="iconfont icon-baotang">煲汤</text>
+    <text class="iconfont icon-zaocan">早餐</text>
   </view>
 </view>
 <!-- 商品图片 -->
-<view>
+<scroll-view>
   <view  wx:for="{{menu}}">
     <view class='menu'><image src='{{item}}'></image>
       <text class='desc'>四川老火锅</text>
     </view>
     
   </view>
-</view>
+</scroll-view>

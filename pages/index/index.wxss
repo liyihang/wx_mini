@@ -46,7 +46,7 @@ margin-top:-8rpx;
 }
 .iconfont {
   font-family:"iconfont" !important;
-  font-size:16px;
+  font-size: 30rpx;
   font-style:normal;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -67,3 +67,35 @@ margin-top:-8rpx;
 .icon-shangcheng:before { content: "\e62b"; }
 
 .icon-baotang:before { content: "\e627"; }
+/* icon布局 */
+.category > text{
+ padding:36rpx;
+float:left;
+margin:15rpx 15rpx;
+
+}
+/* 字体样式 */
+.iconfont.icon-fenleigongnengleimu{
+  color: lightblue;
+}
+.iconfont.icon-hongbei{
+  color: rgb(255, 0, 0);
+}
+.iconfont.icon-meishi{
+  color:rgba(255, 0, 0, 0.479);
+}
+.iconfont.icon-chuanchuan{
+    color:rgb(214, 47, 47);
+}
+.iconfont.icon-tubiaohuizong-zhuanqu_huaban{
+  color:rgb(255, 0, 64);
+}
+.iconfont.icon-shangcheng{
+ color:rgb(184, 184, 23);
+}
+.iconfont.icon-baotang{
+ color:rgb(235, 111, 132);
+}
+.iconfont.icon-zaocan{
+   color:rgb(161, 134, 70);
+}
