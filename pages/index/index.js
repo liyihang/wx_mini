@@ -15,6 +15,10 @@ Page({
       'https://img.alicdn.com/imgextra/i3/2952112410/TB2694Ua1OSBuNjy0FdXXbDnVXa_!!2952112410.jpg_2200x2200Q90s50.jpg_.webp',
       'https://img.alicdn.com/imgextra/i3/2952112410/TB2694Ua1OSBuNjy0FdXXbDnVXa_!!2952112410.jpg_2200x2200Q90s50.jpg_.webp',
       'https://img.alicdn.com/imgextra/i3/2952112410/TB2694Ua1OSBuNjy0FdXXbDnVXa_!!2952112410.jpg_2200x2200Q90s50.jpg_.webp',
+      'https://img.alicdn.com/imgextra/i3/2952112410/TB2694Ua1OSBuNjy0FdXXbDnVXa_!!2952112410.jpg_2200x2200Q90s50.jpg_.webp',
+      'https://img.alicdn.com/imgextra/i3/2952112410/TB2694Ua1OSBuNjy0FdXXbDnVXa_!!2952112410.jpg_2200x2200Q90s50.jpg_.webp',
+      'https://img.alicdn.com/imgextra/i3/2952112410/TB2694Ua1OSBuNjy0FdXXbDnVXa_!!2952112410.jpg_2200x2200Q90s50.jpg_.webp',
+      'https://img.alicdn.com/imgextra/i3/2952112410/TB2694Ua1OSBuNjy0FdXXbDnVXa_!!2952112410.jpg_2200x2200Q90s50.jpg_.webp',
 
     ],
     indicatorDots: true,
@@ -22,7 +26,7 @@ Page({
     interval: 3000,
     duration: 1000,
     inputShowed: false,
-    inputVal: ""
+    inputVal: "哈哈哈"
   }
 
 })
