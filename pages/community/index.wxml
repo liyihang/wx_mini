@@ -1,0 +1,6 @@
+<!--pages/community/index.wxml-->
+<scroll-view scroll-x="{{true}}">
+  <view class='parent'>
+    <view wx:for="{{arr}}" wx:key="{{index}}" bindtap='change' data-index='{{index}}' class="{{index==now?'active':''}}">{{item}}</view>
+  </view>
+</scroll-view>

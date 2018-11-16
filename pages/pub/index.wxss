@@ -1,0 +1,15 @@
+/* pages/pub/index.wxss */
+view image{
+  margin-top: 100rpx;
+  border: 1rpx solid palevioletred;
+  width: 100%;
+}
+button{
+  width: 90%;
+}
+.takephoto{
+  margin-top:200rpx;
+}
+.photo{
+  margin-top: 3rpx;
+}

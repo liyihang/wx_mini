@@ -1,0 +1,6 @@
+<!--pages/pub/index.wxml-->
+<view>
+  <image src='{{src}}'></image>
+</view>
+<button class='takephoto' type='primary'>拍照发布美食</button>
+<button class='photo' type='primary'>从相册选择</button>

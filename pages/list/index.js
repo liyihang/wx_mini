@@ -1,66 +1,32 @@
-// pages/list/index.js
 Page({
-
-  /**
-   * 页面的初始数据
-   */
   data: {
+    imgUrls: [
+      'https://img.alicdn.com/imgextra/i2/1910146537/TB2KskioHZnBKNjSZFrXXaRLFXa_!!1910146537-0-scmitem32000.jpg_2200x2200Q90s50.jpg_.webp',
+      'https://img.alicdn.com/imgextra/i4/1910146537/TB2fcMtoFooBKNjSZFPXXXa2XXa_!!1910146537-0-scmitem32000.jpg_2200x2200Q90s50.jpg_.webp',
+      'https://img.alicdn.com/imgextra/i4/2019459085/TB2Ys1BtpuWBuNjSszbXXcS7FXa_!!2019459085.jpg_2200x2200Q90s50.jpg_.webp'
+    ],
+    menu: [
+      'https://img.alicdn.com/imgextra/i3/2952112410/TB2694Ua1OSBuNjy0FdXXbDnVXa_!!2952112410.jpg_2200x2200Q90s50.jpg_.webp',
+      'https://img.alicdn.com/imgextra/i3/2952112410/TB2694Ua1OSBuNjy0FdXXbDnVXa_!!2952112410.jpg_2200x2200Q90s50.jpg_.webp',
+      'https://img.alicdn.com/imgextra/i3/2952112410/TB2694Ua1OSBuNjy0FdXXbDnVXa_!!2952112410.jpg_2200x2200Q90s50.jpg_.webp',
+      'https://img.alicdn.com/imgextra/i3/2952112410/TB2694Ua1OSBuNjy0FdXXbDnVXa_!!2952112410.jpg_2200x2200Q90s50.jpg_.webp',
+      'https://img.alicdn.com/imgextra/i3/2952112410/TB2694Ua1OSBuNjy0FdXXbDnVXa_!!2952112410.jpg_2200x2200Q90s50.jpg_.webp',
+      'https://img.alicdn.com/imgextra/i3/2952112410/TB2694Ua1OSBuNjy0FdXXbDnVXa_!!2952112410.jpg_2200x2200Q90s50.jpg_.webp',
+      'https://img.alicdn.com/imgextra/i3/2952112410/TB2694Ua1OSBuNjy0FdXXbDnVXa_!!2952112410.jpg_2200x2200Q90s50.jpg_.webp',
+      'https://img.alicdn.com/imgextra/i3/2952112410/TB2694Ua1OSBuNjy0FdXXbDnVXa_!!2952112410.jpg_2200x2200Q90s50.jpg_.webp',
+      'https://img.alicdn.com/imgextra/i3/2952112410/TB2694Ua1OSBuNjy0FdXXbDnVXa_!!2952112410.jpg_2200x2200Q90s50.jpg_.webp',
+      'https://img.alicdn.com/imgextra/i3/2952112410/TB2694Ua1OSBuNjy0FdXXbDnVXa_!!2952112410.jpg_2200x2200Q90s50.jpg_.webp',
+      'https://img.alicdn.com/imgextra/i3/2952112410/TB2694Ua1OSBuNjy0FdXXbDnVXa_!!2952112410.jpg_2200x2200Q90s50.jpg_.webp',
+      'https://img.alicdn.com/imgextra/i3/2952112410/TB2694Ua1OSBuNjy0FdXXbDnVXa_!!2952112410.jpg_2200x2200Q90s50.jpg_.webp',
+      'https://img.alicdn.com/imgextra/i3/2952112410/TB2694Ua1OSBuNjy0FdXXbDnVXa_!!2952112410.jpg_2200x2200Q90s50.jpg_.webp',
 
-  },
-
-  /**
-   * 生命周期函数--监听页面加载
-   */
-  onLoad: function (options) {
-
-  },
-
-  /**
-   * 生命周期函数--监听页面初次渲染完成
-   */
-  onReady: function () {
-
-  },
-
-  /**
-   * 生命周期函数--监听页面显示
-   */
-  onShow: function () {
-
-  },
-
-  /**
-   * 生命周期函数--监听页面隐藏
-   */
-  onHide: function () {
-
-  },
-
-  /**
-   * 生命周期函数--监听页面卸载
-   */
-  onUnload: function () {
-
-  },
-
-  /**
-   * 页面相关事件处理函数--监听用户下拉动作
-   */
-  onPullDownRefresh: function () {
-
-  },
-
-  /**
-   * 页面上拉触底事件的处理函数
-   */
-  onReachBottom: function () {
-
-  },
-
-  /**
-   * 用户点击右上角分享
-   */
-  onShareAppMessage: function () {
-
+    ],
+    indicatorDots: true,
+    autoplay: true,
+    interval: 3000,
+    duration: 1000,
+    inputShowed: false,
+    inputVal: "哈哈哈"
   }
+
 })

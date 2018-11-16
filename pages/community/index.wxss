@@ -1,0 +1,12 @@
+/* pages/community/index.wxss */
+.parent{
+  white-space: nowrap;
+}
+.parent view{
+  display: inline-block;
+  width: 150rpx;
+  text-align: center;
+}
+.parent view.active{
+  color: red;
+}

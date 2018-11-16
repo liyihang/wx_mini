@@ -3,7 +3,10 @@
     "pages/index/index",
     "pages/list/index",
     "pages/logs/logs",
-    "images"
+    "pages/community/index",
+    "pages/pub/index",
+    "pages/my/index"
+   
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -28,19 +31,19 @@
         "selectedIconPath": "pages/images/index.png"
       },
       {
-        "pagePath": "pages/index/index",
+        "pagePath": "pages/pub/index",
         "text": "发 布",
         "iconPath": "pages/images/photo.png",
         "selectedIconPath": "pages/images/index.png"
       },
       {
-        "pagePath": "pages/index/index",
+        "pagePath": "pages/community/index",
         "text": "社 区",
         "iconPath": "pages/images/community.png",
         "selectedIconPath": "pages/images/index.png"
       },
       {
-        "pagePath": "pages/list/index",
+        "pagePath": "pages/my/index",
         "text": "我 的",
         "iconPath": "pages/images/my.png",
         "selectedIconPath": "pages/images/my.png"
