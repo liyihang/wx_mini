@@ -1,11 +1,14 @@
 {
   "pages": [
-    "pages/index/index",
-    "pages/list/index",
-    "pages/logs/logs",
-    "pages/community/index",
     "pages/pub/index",
+    "pages/index/index",
+    
+    "pages/list/index",
+    
+    "pages/community/index",
+    
     "pages/my/index"
+   
    
   ],
   "window": {

@@ -1,9 +1,7 @@
 <!--pages/pub/index.wxml-->
 <view>
-  <image src='{{src}}'></image>
+  <image src='{{url}}' bindtap='preview'data-src="{{url}}" data-list="{{url}}"></image>
 </view>
 <view class='uploadimg'>
-  <button class='takephoto' type='default'>拍照发布美食</button>
-<button class='photo' type='default'>从相册选择</button>
-<button class='cancel' type='default' bindtap='cancelimg'>取消</button>
+  <button class='takephoto' bindtap='takephoto' type='primary'>发布你的创意美食</button>
 </view>

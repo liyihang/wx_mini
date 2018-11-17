@@ -5,19 +5,58 @@ Page({
    * 页面的初始数据
    */
   data: {
-    src:'https://ss0.bdstatic.com/94oJfD_bAAcT8t7mm9GUKT-xh_/timg?image&quality=100&size=b4000_4000&sec=1542300482&di=c9dceb9380ee0ba603ddbf75e70dafe9&src=http://imgsrc.baidu.com/imgad/pic/item/bd3eb13533fa828b3a7da2e9f71f4134970a5a59.jpg'
+    url:'https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1542453120836&di=dda5b5de59226bf95e009f3a4d770a77&imgtype=0&src=http%3A%2F%2Fs9.rr.itc.cn%2Fr%2FwapChange%2F20172_20_15%2Fa0l7pp8989979220315.gif'
   },
-
+/**
+ * 取消发布
+ */
   cancelimg(){
     wx.switchTab({
       url: '../index/index',
     })
   },
   /**
+   * 拍照
+   */
+  takephoto() {
+    var that = this
+    wx.chooseImage({
+      count: 1,
+      sizeType: ['original', 'compressed'],
+      sourceType: ['camera','album'],
+      success(res) {
+        // tempFilePath可以作为img标签的src属性显示图片
+   
+        var tempFilePaths = res.tempFilePaths;
+        console.log(tempFilePaths);
+        //将读取的图片替换之前的图片
+        that.setData({ url: tempFilePaths[0] })
+        
+      
+      
+      }
+      
+    })
+  },
+  error(e) {
+    console.log(e.detail)
+  },
+ 
+//  预览功能
+  preview(event){
+  console.log(event)
+  wx.previewImage({
+    
+    urls: event.currentTarget.dataset.list
+ 
+  })
+},
+
+  /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-
+    
   },
 
   /**
